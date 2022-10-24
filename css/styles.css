@@ -147,6 +147,9 @@ body {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    max-width: 696px;
+    margin-right: auto; 
+    margin-left: auto;
     color: var(--hero-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -216,6 +219,18 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-titel {
+    display: inline-block;
+}
+
+.feature-list {
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .section .text {
