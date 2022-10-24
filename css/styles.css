@@ -8,6 +8,15 @@ html {
     box-sizing: inherit;
 }
 
+/* RESET START */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --hero-text-color: #FFFFFF;
     --primary-text-color: #757575;
@@ -33,13 +42,17 @@ body {
 
 
 .container {
-    width: 1200px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-/* logo */
+/* ========================================
+                  logo 
+   ======================================== */
 .logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
@@ -55,13 +68,19 @@ body {
     color: var(--hero-text-color);
 }
 
-/* hero */
+/* ====================================
+                 hero 
+   ==================================== */
 .hero {
     background-color: var(--header-footer-color);
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 94px;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--hero-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -71,6 +90,11 @@ body {
 }
 
 .hero .button-hero {
+    min-width: 216px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 11px 32px;
     color: var(--hero-text-color);
     background-color: var(--accent-color); 
     font-family: inherit;
@@ -86,7 +110,9 @@ body {
     color: var(--hero-text-color)
 }
 
-/* visually-hidden */
+/* ====================================
+            visually-hidden 
+   ==================================== */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -100,7 +126,9 @@ body {
     overflow: hidden;
   }
 
-/* site nav */
+/* ===============================
+           site nav
+   ===============================  */
 ul {
     list-style: none;
 }
@@ -134,7 +162,9 @@ ul {
     color: var(--accent-color)
 }
 
-/* section */
+/* ==============================
+            section
+   ============================== */
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -144,8 +174,11 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* features */
+/* =============================
+           features 
+   ============================= */
 .section .feature-titel {
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -160,7 +193,9 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* section-team */
+/* ===============================
+            section-team
+   ===============================  */
 .section-team {
     background-color: var(--secondary-bgd-color);
 }
@@ -183,7 +218,9 @@ ul {
     background-color: var(--hero-text-color);
 }
 
-/* footer */
+/* ===================================
+               footer 
+   =================================== */
 .footer {
     background-color: var(--header-footer-color);
 }
@@ -214,9 +251,19 @@ ul {
     color: var(--accent-color)
 }
 
-/* PORTFOLIO */
+/* =====================================
+========================================
+                 PORTFOLIO
+======================================== 
+========================================*/
 
 .button-pic {
+    min-width: 73px;
+    min-height: 38px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
     color: var(--title-text-color);
     background-color: var(--secondary-bgd-color); 
     font-family: inherit;
@@ -262,7 +309,9 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* visually-hidden */
+/* ===================================
+            visually-hidden
+   =================================== */         
 
 .visually-hidden {
     position: absolute;
