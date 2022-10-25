@@ -383,6 +383,18 @@ body {
     color: var(--accent-color)
 }
 
+.footer-container {
+    display: inline-block;
+}
+
+.footer .logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footer li:not(:last-child) {
+    margin-right: 9px;
+} 
+
 /* =====================================
 ========================================
                  PORTFOLIO
