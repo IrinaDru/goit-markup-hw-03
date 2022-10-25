@@ -42,7 +42,7 @@ body {
 
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -204,7 +204,7 @@ body {
    ============================== */
 
 .section {
-    display: block;
+    /* display: block; */
     padding-top: 94px;
     padding-bottom: 94px;
 }   
@@ -320,39 +320,37 @@ body {
     margin-right: auto; 
     margin-left: auto;
 }
-
-.work-team {
-    display: flex;
-    justify-content: space-between;
-}
-
-.img-list {
+/* .img-list {
     display: block;
     width: 270px; 
     margin-bottom: 30px;  
-}
+} */
 
 .member-team .team {
     margin-bottom: 10px;
+
 }
-.member-team .position {
+/* .member-team .position {
     margin-bottom: 30px;
-}
-
-
+} */
 .team-list {
     display: flex;
-    /* flex-basis: calc((100% - 3 * 30px) / 4); */
+    gap: 30px;
 }
 .member-team {
     display: block;
 }
-.team-list li {
-    margin-right: 30px;
+
+.member-team {
+    flex-basis: calc((100% - 30px * 2) / 4);
 }
-/* .team-box {
-    padding:  30px, 70px;
+/* .team-list li {
+    margin-right: 30px;
 } */
+.team-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
 
 /* ===================================
                footer 
