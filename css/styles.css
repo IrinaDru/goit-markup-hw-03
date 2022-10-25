@@ -49,9 +49,6 @@ body {
     margin-right: auto;
     outline: 1px solid tomato;
 }
-.header-container {
-    display: flex;
-}
 
 
 /* ========================================
@@ -93,12 +90,16 @@ body {
     
 }
 
+.header-container {
+    display: flex;
+}
+
 .link-nav:not(:last-child) {
     margin-right: 50px;
 }
 
 .header-link {
-    display:inline-block;
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -220,18 +221,26 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.features {
+/* /* .features {
     display: flex;
     justify-content: space-between;
 }
 
 .feature-titel {
     display: inline-block;
-}
+    width: 270px;
+} */
 
 .feature-list {
     flex-basis: calc((100% - 90px) / 4);
+} 
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
+
 
 .section .text {
     font-size: 14px;
