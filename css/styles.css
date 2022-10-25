@@ -161,10 +161,11 @@ body {
 
 .hero .button-hero {
     min-width: 216px;
+    min-height: 50px;
     text-align: center;
     display: inline-block;
     border-radius: 4px;
-    padding: 11px 32px;
+    padding: 11x 32px;
 
     color: var(--hero-text-color);
     background-color: var(--accent-color); 
@@ -349,6 +350,9 @@ body {
 .team-list li {
     margin-right: 30px;
 }
+/* .team-box {
+    padding:  30px, 70px;
+} */
 
 /* ===================================
                footer 
@@ -407,7 +411,10 @@ body {
     text-align: center;
     display: inline-block;
     border-radius: 4px;
-    padding: 6px 22px;
+    padding: 2px 20px;
+    border: 1px solid var(--secondary-bgd-color);
+    
+    
     color: var(--title-text-color);
     background-color: var(--secondary-bgd-color); 
     font-family: inherit;
