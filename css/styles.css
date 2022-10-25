@@ -272,10 +272,20 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.work {
-    width: 370px;
+/* .work:not(:last-child) {
+    margin-right: 30px;
+} */
+/* .work-list .work:last-child {
+    margin-right: 0;
 }
+.work {
+    display: flex;
+    width: 370px;
+} */
 
+/* .work-list .work + .work {
+    margin-left: 30px;
+}  */
 /* ===============================
             section-team
    ===============================  */
@@ -299,6 +309,45 @@ body {
 
 .section-team .member-team {
     background-color: var(--hero-text-color);
+}
+
+.section-team .section-title {
+    background-color: #188CE8;
+    margin-bottom: 50px;
+
+    text-align: center;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.work-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-list {
+    display: block;
+    width: 270px; 
+    margin-bottom: 30px;  
+}
+
+.member-team .team {
+    margin-bottom: 10px;
+}
+.member-team .position {
+    margin-bottom: 30px;
+}
+
+
+.team-list {
+    display: flex;
+    /* flex-basis: calc((100% - 3 * 30px) / 4); */
+}
+.member-team {
+    display: block;
+}
+.team-list li {
+    margin-right: 30px;
 }
 
 /* ===================================
