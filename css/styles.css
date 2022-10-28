@@ -443,9 +443,8 @@ body {
     min-width: 73px;
     min-height: 38px;
     text-align: center;
-    display: inline-block;
     border-radius: 4px;
-    padding: 2px 20px;
+    padding: 6px 22px;
     border: 1px solid var(--secondary-bgd-color);
     
     
@@ -458,6 +457,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+flex-basis: calc((100% - 90px) / 3);
+
 .button-pic:hover,
 .button-pic:focus {
     background-color: var(--accent-color);
@@ -507,8 +508,7 @@ body {
     display: flex;
     justify-content: center;
     /* outline: 1px solid tomato; */
-    padding-bottom: 16px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     
 }
 /* .section-pic {
@@ -533,13 +533,7 @@ body {
 }
 
 .pic-list > .pic-element {
-    /* outline: 1px solid teal; */
-
-    flex-basis: calc(100% / 3 - 30px);
-
-    /* margin-left: 30px;
-    margin-top: 30px; */
-    
+    flex-basis: calc((100% - 60px) / 3);  
 }
 
 /* ===================================
