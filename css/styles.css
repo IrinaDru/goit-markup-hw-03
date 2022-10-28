@@ -50,13 +50,13 @@ body {
 
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid tomato; */
-    /* ГОЛОВНИЙ БОРДЕР_БОХ */
+   
 }
 
 
@@ -70,12 +70,11 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-right: 93px;
 }
 .logo-header {
     color: #000000
 }
-.logo-footer {
+.logo .logo-footer {
     color: var(--hero-text-color);
 }
 
@@ -111,6 +110,9 @@ body {
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+.link-nav:first-child {
+    margin-left: 93px;
 }
 
 .site-nav .item { 
@@ -154,7 +156,11 @@ body {
 .hero {
     background-color: var(--header-footer-color);
     text-align: center;
-    margin-top: 0;
+}
+
+.container-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -178,7 +184,8 @@ body {
     text-align: center;
     display: inline-block;
     border-radius: 4px;
-    padding: 11x 32px;
+    border-color: transparent;
+    padding: 11px 32px;
 
     color: var(--hero-text-color);
     background-color: var(--accent-color); 
@@ -270,6 +277,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.section-feature {
+    padding-bottom: 0;
+}
+
 /* ==================================
               section-work
  ==================================== */
@@ -285,7 +296,6 @@ body {
 .work-list {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
 }
 
 /* .work:not(:last-child) {
@@ -378,6 +388,8 @@ body {
    =================================== */
 .footer {
     background-color: var(--header-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer .maps {
     color: var(--hero-text-color);  
@@ -405,26 +417,19 @@ body {
 .footer .contact:focus {
     color: var(--accent-color)
 }
-
-.footer-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
-
-}
 /* 
 .footer .logo {
     margin-bottom: 20px;
 } */
-.footer-list {
-    padding-top: 20px;
+
+.footer-link-logo {
+    display: inline-block;
+    margin-bottom: 20px;
 }
-.footer-list:not(:last-child) {
-    margin-right: 9px;
-} 
+
+.footer-contact-list:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 
 
