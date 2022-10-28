@@ -70,7 +70,9 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin-right: 93px;
 }
+
 .logo-header {
     color: #000000
 }
@@ -111,9 +113,9 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.link-nav:first-child {
+/* .link-nav:first-child {
     margin-left: 93px;
-}
+} */
 
 .site-nav .item { 
     font-weight: 500;
@@ -423,8 +425,11 @@ body {
 } */
 
 .footer-link-logo {
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 20px;
+}
+.footer a {
+    margin-right: 0;
 }
 
 .footer-contact-list:not(:last-child) {
