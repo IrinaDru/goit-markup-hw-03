@@ -447,11 +447,9 @@ body {
 .button-pic {
     min-width: 73px;
     min-height: 38px;
-    text-align: center;
     border-radius: 4px;
     padding: 6px 22px;
     border: 1px solid var(--secondary-bgd-color);
-    
     
     color: var(--title-text-color);
     background-color: var(--secondary-bgd-color); 
@@ -462,7 +460,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-flex-basis: calc((100% - 90px) / 3);
 
 .button-pic:hover,
 .button-pic:focus {
